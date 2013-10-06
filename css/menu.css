@@ -1,8 +1,4 @@
 /* Style Used for TAOMAR Menu */
-body {
-	font-family: "Playball", sans-serif; 
-	background-color: #E0C1FF;
-}
 #container {
 	width: 45%;
 	background-color: #fff;
@@ -13,8 +9,10 @@ body {
 	border-radius: 10px;
 	box-shadow: 1px 1px 2px #000;
 }
-#footer {
-	margin-top: 5px;
+
+body {
+	font-family: "Playball", sans-serif; 
+	background-color: #E0C1FF;
 }
 
 h1, h2 { font-family: "Parisienne", cursive; }
@@ -29,7 +27,6 @@ h2 {
   }
   
   h2.line {
-    margin-top: 0;
     margin-bottom: 20px;
     margin-top: 20px;
   }
@@ -51,30 +48,47 @@ h2 {
     position: relative;
     z-index: 5;
   }
-h3 {
-	font-size: 15px;
-	font-style: bold;
-	margin: 0;
-}
-
-.foot-note {
-	font-size: 10px;
-	margin: 0;
-}
-
 img {
 	height: auto;
 	max-width: 100%;
 }
 
-p {
-	margin-top: 2px;
+ul {
+	padding: 0;
+}
+ul.menu {
+	list-style-type: none;
 	font-size: 12px;
 }
 
-.pad {
-	padding: 10px;
+ul span.menu-item {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
 }
-ul { list-style: none; }
+
+ul li {
+	padding: 5px;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.foot-note {
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+.heart {
+	padding-bottom: 15px;
+}
+
+
+
 
 
