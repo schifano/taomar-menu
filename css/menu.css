@@ -15,7 +15,9 @@ body {
 	background-color: #E0C1FF;
 }
 
-h1, h2 { font-family: "Parisienne", cursive; }
+h1, h2 { 
+	font-family: "Parisienne", cursive; 
+	text-align: center; }
 
 h1 {
 	font-size: 55px;
