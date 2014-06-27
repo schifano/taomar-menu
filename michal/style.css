@@ -1,0 +1,13 @@
+body {
+	font-family: "Avenir Next", Helvetica, Arial, Verdana, sans-serif;
+	text-align: center;
+	background-color: #FCF0E4;
+	color: #62554B;
+}
+h1, h2, h3, h4 {
+	font-weight: 300;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
