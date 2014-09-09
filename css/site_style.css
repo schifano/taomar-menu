@@ -1,0 +1,18 @@
+body {
+
+}
+h1, h2 { 
+	font-family: "Parisienne", cursive; 
+	text-align: center;
+	font-size: 3.0em;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+p {
+	text-align: center;
+}
+#comics {
+	text-align: center;
+}
